@@ -1,0 +1,8 @@
+﻿@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body { @apply bg-gray-50 text-gray-900; }
+.btn { @apply px-4 py-2 rounded bg-emerald-600 text-white hover:bg-emerald-700 disabled:opacity-50; }
+.card { @apply bg-white rounded shadow p-4; }
+.input { @apply border rounded px-3 py-2 w-full; }
